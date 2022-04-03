@@ -35,4 +35,9 @@ public class JavaOptionalTest {
     void gitTest_ProductComment() {
         System.out.println("상품평 개발 2차_2");
     }
+
+    @Test
+    void gitTest_LikeUpgrade() {
+        System.out.println("좋아요_기능_개편 1차");
+    }
 }
