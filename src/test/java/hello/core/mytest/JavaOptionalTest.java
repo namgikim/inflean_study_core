@@ -33,6 +33,6 @@ public class JavaOptionalTest {
 
     @Test
     void gitTest_ProductComment() {
-        System.out.println("상품평 개발 2차");
+        System.out.println("상품평 개발 2차_1");
     }
 }
