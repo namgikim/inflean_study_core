@@ -20,4 +20,9 @@ public class JavaOptionalTest {
     void gitCommitTest() {
         System.out.println("배포 1-3");
     }
+
+    @Test
+    void gitTest_Release() {
+        System.out.println("개발 배포 2-1");
+    }
 }
