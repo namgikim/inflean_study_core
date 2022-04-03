@@ -44,4 +44,9 @@ public class JavaOptionalTest {
         System.out.println("좋아요_기능_개편 1차_9");
         System.out.println("좋아요_기능_개편 2차_2");
     }
+
+    @Test
+    void gitTest_backspaceUpgrade() {
+        System.out.println("뒤로가기_기능_개편 1차");
+    }
 }
