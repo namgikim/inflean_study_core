@@ -1,0 +1,43 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.2'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'hello'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+// (1) Lombok 설정 추가.
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+} // Lombok 설정 추가 끝
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'javax.inject:javax.inject:1'
+	implementation 'org.springframework.boot:spring-boot-starter-web' // web 라이브러리 추가
+
+	// (2) Lombok 라이브러리 추가 시작 (https://projectlombok.org/setup/gradle 참조)
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+
+	// (3) Preference -> Plugin -> Lombok 설치. (설치 되어 있음)
+	// (4) Preference -> Compiler -> Annotation Processors -> Enable annotation processing 체크 On. (꼭!)
+	// End
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}
