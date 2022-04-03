@@ -28,7 +28,7 @@ public class JavaOptionalTest {
 
     @Test
     void gitTest_SearchUIUpgrade() {
-        System.out.println("검색_UI_개편 4차_3");
+        System.out.println("검색_UI_개편 4차_4");
     }
 
     @Test
