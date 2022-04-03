@@ -18,6 +18,6 @@ public class JavaOptionalTest {
 
     @Test
     void gitCommitTest() {
-        System.out.println("commit 11");
+        System.out.println("commit 12");
     }
 }
