@@ -48,6 +48,6 @@ public class JavaOptionalTest {
     @Test
     void gitTest_backspaceUpgrade() {
         System.out.println("뒤로가기_기능_개편 1차_4");
-        System.out.println("뒤로가기_기능_개편 2차_3");
+        System.out.println("뒤로가기_기능_개편 2차_4");
     }
 }
