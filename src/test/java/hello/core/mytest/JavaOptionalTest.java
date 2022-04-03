@@ -30,4 +30,9 @@ public class JavaOptionalTest {
     void gitTest_SearchUIUpgrade() {
         System.out.println("검색_UI_개편 2차_6");
     }
+
+    @Test
+    void gitTest_ProductComment() {
+        System.out.println("상품평 개발 1차");
+    }
 }
