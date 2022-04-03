@@ -15,4 +15,9 @@ public class JavaOptionalTest {
 
         assertThat(stringOptional.orElse("none")).isEqualTo("value1");
     }
+
+    @Test
+    void gitCommitTest() {
+        System.out.println("commit 1");
+    }
 }
