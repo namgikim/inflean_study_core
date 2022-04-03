@@ -23,6 +23,6 @@ public class JavaOptionalTest {
 
     @Test
     void gitTest_Release() {
-        System.out.println("개발 배포 2-1");
+        System.out.println("개발 배포 2-2");
     }
 }
