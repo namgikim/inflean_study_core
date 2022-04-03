@@ -40,5 +40,6 @@ public class JavaOptionalTest {
     void gitTest_LikeUpgrade() {
         System.out.println("좋아요_기능_개편 1차_3");
         System.out.println("좋아요_기능_개편 1차_4");
+        System.out.println("좋아요_기능_개편 1차_5");
     }
 }
