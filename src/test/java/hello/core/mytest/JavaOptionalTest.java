@@ -18,6 +18,6 @@ public class JavaOptionalTest {
 
     @Test
     void gitCommitTest() {
-        System.out.println("검색_UI_개편 1차_2");
+        System.out.println("배포 1-3");
     }
 }
