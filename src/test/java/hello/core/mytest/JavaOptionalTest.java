@@ -25,4 +25,9 @@ public class JavaOptionalTest {
     void gitTest_Release() {
         System.out.println("개발 배포 2-4");
     }
+
+    @Test
+    void gitTest_SearchUIUpgrade() {
+        System.out.println("검색_UI_개편 2차");
+    }
 }
